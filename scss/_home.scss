@@ -521,6 +521,13 @@ html {
 .fullBox{
     
     width: 30%;
+    @include tablets(){
+        width: 45%;
+    }
+    @include phones(){
+        width: 65%;
+    }
+
     p{
         line-height: 1.8;
         padding-top: 12px;
@@ -532,19 +539,14 @@ html {
         font-family: "Yusei Magic", sans-serif;
         font-size: 22px;
         text-shadow: 6px 6px 7px rgba(0, 0, 0, 0.8);   
-        @include tablets(){
-            width: 45%;
-        }
-        @include phones(){
-            width: 65%;
-        }
+        
     }
 }
 
 .passionateGroup{
     width: 100%;
     height: auto;
-    background-image: url(/image/hobbyBC04.webp);
+    background-image: url(../image/hobbyBC04.webp);
     background-position: center ;
     background-size: cover ;
     background-repeat: no-repeat;
@@ -638,7 +640,7 @@ html {
     }
     .passionate-a{
         @include passionatePic;
-        background-image: url(/image/item01.jpg);
+        background-image: url(../image/item01.jpg);
         position: relative;
         @include tablets(){
             width: 30%;
@@ -676,7 +678,7 @@ html {
     
     .passionate-b{
         @include passionatePic;
-        background-image: url(/image/item04.png);
+        background-image: url(../image/item04.png);
         transform: translateY(56px);
         position: relative;
         @include tablets(){
@@ -713,7 +715,7 @@ html {
     }
     .passionate-c{
         @include passionatePic;
-        background-image: url(/image/item03.jpeg);
+        background-image: url(../image/item03.jpeg);
         position: relative;
         @include tablets(){
             width: 30%;

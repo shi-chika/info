@@ -996,6 +996,16 @@ html {
 .fullBox {
   width: 30%;
 }
+@media (max-width: 992px) {
+  .fullBox {
+    width: 45%;
+  }
+}
+@media (max-width: 767px) {
+  .fullBox {
+    width: 65%;
+  }
+}
 .fullBox p {
   line-height: 1.8;
   padding-top: 12px;
@@ -1008,21 +1018,11 @@ html {
   font-size: 22px;
   text-shadow: 6px 6px 7px rgba(0, 0, 0, 0.8);
 }
-@media (max-width: 992px) {
-  .fullBox p {
-    width: 45%;
-  }
-}
-@media (max-width: 767px) {
-  .fullBox p {
-    width: 65%;
-  }
-}
 
 .passionateGroup {
   width: 100%;
   height: auto;
-  background-image: url(/image/hobbyBC04.webp);
+  background-image: url(../image/hobbyBC04.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1077,7 +1077,7 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/image/item01.jpg);
+  background-image: url(../image/item01.jpg);
   position: relative;
 }
 @media (max-width: 992px) {
@@ -1132,7 +1132,7 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/image/item04.png);
+  background-image: url(../image/item04.png);
   transform: translateY(56px);
   position: relative;
 }
@@ -1189,7 +1189,7 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/image/item03.jpeg);
+  background-image: url(../image/item03.jpeg);
   position: relative;
 }
 @media (max-width: 992px) {
