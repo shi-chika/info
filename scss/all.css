@@ -1565,7 +1565,7 @@ html {
 }
 
 .profileGroup {
-  background-image: url(/image/BG09-s.jpg);
+  background-image: url(../image/BG09-s.jpg);
 }
 
 .profileTitle {
@@ -1704,7 +1704,7 @@ html {
 }
 
 .majorGroup {
-  background-image: url(/image/BG09-s.jpg);
+  background-image: url(../image/BG09-s.jpg);
   padding-top: 184px;
   padding-bottom: 264px;
 }
@@ -2006,7 +2006,7 @@ html {
 }
 
 .toolGroup {
-  background-image: url(/image/BG08-s.jpg);
+  background-image: url(../image/BG08-s.jpg);
 }
 
 .toolBox {
