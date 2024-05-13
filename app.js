@@ -8,10 +8,12 @@ window.addEventListener('scroll', function() {
   const homeNav = document.querySelector('.homeHeader');
 
     if (window.scrollY > 100) {
-      homeNav.style.backgroundColor = 'rgba(201, 205, 191, 0.4)';
+      // homeNav.style.backgroundColor = 'rgba(201, 205, 191, 0.4)';
+      homeNav.style.backdropFilter = ' blur(20px)';
      
     } else {
-      homeNav.style.backgroundColor = 'rgba(39,39,39,1)';
+      
+      homeNav.style.backdropFilter = ' blur(0px)';
      
     }
 });
