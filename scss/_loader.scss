@@ -5,7 +5,7 @@
     width: 100%;
     height: 100vh;      
     background-color: #7D7463;
-    background-color: #a39b8c;
+    // background-color: #a39b8c;
     z-index: 9999; /* 最頂層 */
     .loaderGroup{
       display: flex;
@@ -19,7 +19,7 @@
         height: 50px;
         border: 8px solid #ffffff;
         border-top: 8px solid #f1aa95;
-        border-bottom: 8px solid #FFBE98;
+        border-bottom: 8px solid #EEC759;
         // border-radius: 50%;
         animation: spin 2s linear infinite;
       }
