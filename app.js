@@ -40,18 +40,28 @@ window.addEventListener('scroll', function() {
   }
 });
 
-// aboutHamGroup
+const model = document.querySelector('.model');
+const contactBtn = document.querySelector(".contactBtn");
 
-// window.addEventListener('scroll', function() {
-//   const aboutMenu = document.querySelector('.aboutHamGroup');
-//   if (window.scrollY > 50) {
-//     aboutMenu.style.bottom = "0"
-   
-//   } else {
-//     aboutMenu.style.bottom = "10%"
-   
-//   }
-// });
+contactBtn.addEventListener('click',(e)=>{
+  e.preventDefault();
+  
+  model.style.display = 'block';
+  document.body.classList.add('noscroll');
+})
+const contactBtnSp = document.querySelector(".contactBtn-sp");
+contactBtnSp.addEventListener('click',(e)=>{
+  e.preventDefault();
+ 
+  model.style.display = 'block';
+  document.body.classList.add('noscroll');
+})
+
+const closeModelBtn = document.querySelector("#closeModel");
+closeModelBtn.addEventListener('click',(e)=>{
+  e.target.closest('.model').style.display = 'none';
+  document.body.classList.remove('noscroll');
+})
 
   
 

@@ -147,6 +147,7 @@ html {
     }
     .homeLink {
         display: flex;
+        
         @include phones(){
             display: none;
         }
@@ -156,16 +157,15 @@ html {
             display: inline-block;
             color: #ffffff;
             position: relative;
-            padding-left: 6px;
-            padding-right: 6px;
-
+            padding: 6px;
+           
             &::before{
                 content: "";
-                height: 1px;
+                height: 2px;
                 width: 0;
                 background-color: #FFBE98;
                 position: absolute;
-                bottom: -8px;
+                bottom: -2px;
                 left: 0;
                 transition: width 0.3s ease-out;
             }
@@ -175,11 +175,11 @@ html {
         }
         & :first-child ::before{
             content: "";
-            height: 1px;
+            height: 2px;
             width: 100%;
             background-color: #FFBE98;
             position: absolute;
-            bottom: -8px;
+            bottom: -2px;
             left: 0;
         }
         li+li{
