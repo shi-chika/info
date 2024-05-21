@@ -2433,7 +2433,7 @@ input[type=checkbox] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 10px solid #e4b98d;
+  border: 10px solid #d9b998;
 }
 @media (max-width: 992px) {
   .model .model-msg {
@@ -2442,7 +2442,7 @@ input[type=checkbox] {
 }
 @media (max-width: 767px) {
   .model .model-msg {
-    width: 80%;
+    width: 94%;
     padding: 30px;
   }
 }
@@ -2468,6 +2468,12 @@ input[type=checkbox] {
   color: #504a4a;
   transition: all 0.3s ease;
 }
+@media (max-width: 767px) {
+  .close-icon {
+    top: 8px;
+    right: 12px;
+  }
+}
 .close-icon:hover {
   color: #bb541f;
   transform: scale(1.1);
@@ -2475,13 +2481,18 @@ input[type=checkbox] {
 
 .mail-icon {
   font-size: 92px;
-  color: #dbb15d;
+  color: #eac57a;
   margin-bottom: 12px;
 }
 
 .contact-text {
   font-family: "Noto Sans JP", sans-serif;
   margin-bottom: 16px;
+}
+@media (max-width: 767px) {
+  .contact-text {
+    margin-bottom: 0;
+  }
 }
 
 .sent-btn {
@@ -2503,9 +2514,11 @@ input[type=checkbox] {
   }
 }
 .sent-btn:hover {
-  background-color: #d87753;
-  background-color: #e4b98d;
+  background-color: #7D7463;
   color: #fff;
+}
+.sent-btn:active {
+  background-color: #7D7463;
 }
 
 .noscroll {
