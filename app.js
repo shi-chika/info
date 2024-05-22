@@ -31,7 +31,7 @@ window.addEventListener('scroll', function() {
 
 window.addEventListener('scroll', function() {
   const aboutTop = document.querySelector('.aboutTopBtn');
-  if (window.scrollY > 100) {
+  if (window.scrollY > 300) {
     aboutTop.style.display = "block"
    
   } else {

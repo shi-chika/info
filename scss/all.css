@@ -2111,6 +2111,21 @@ a {
 .homeHam input:checked ~ ul {
   transform: none;
 }
+.homeHam input:checked ~ div {
+  display: block;
+}
+
+.hamburger-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(51, 51, 51, 0.9);
+  z-index: 22;
+  transition: visibility 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  display: none;
+}
 
 .homeHanMenu {
   position: fixed;
@@ -2172,10 +2187,6 @@ a {
 }
 .aboutHamGroup:hover {
   border: 1px solid #44352f;
-}
-
-input[type=checkbox] {
-  outline: 1px solid black;
 }
 
 .aboutHam {
@@ -2255,6 +2266,9 @@ input[type=checkbox] {
 }
 .aboutHam input:checked ~ ul {
   transform: none;
+}
+.aboutHam input:checked ~ div {
+  display: block;
 }
 
 .aboutHamMenu {
@@ -2371,6 +2385,9 @@ input[type=checkbox] {
 }
 .workHam input:checked ~ ul {
   transform: none;
+}
+.workHam input:checked ~ div {
+  display: block;
 }
 
 .workHamMenu {
